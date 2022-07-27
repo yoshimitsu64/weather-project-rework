@@ -1,8 +1,7 @@
 import Select from "react-select";
-import {useState} from "react";
 import {StyledSelect} from "./styled";
 import {useDispatch, useSelector} from "react-redux";
-import {selectCity, selectWeatherService} from "../../../store/Selectors";
+import {selectWeatherService} from "../../../store/Selectors";
 import {setService} from "../../../store/WeatherService/WeatherServiceSlice";
 import {options} from "../../../constants";
 
